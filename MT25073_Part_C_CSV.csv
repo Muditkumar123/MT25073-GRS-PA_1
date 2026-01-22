@@ -1,0 +1,7 @@
+Program,Mode,Execution_Time(s),CPU_Usage(%),Disk_Reads_KB,Disk_Writes_KB
+Program_A,cpu,6.30,101,2756,180
+Program_A,mem,6.40,100,0,32
+Program_A,io,14.22,26.5,12,983820
+Program_B,cpu,6.32,100,64,64
+Program_B,mem,6.17,100,0,28
+Program_B,io,15.22,22,0,983860
