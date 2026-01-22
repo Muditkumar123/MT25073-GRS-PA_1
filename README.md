@@ -45,7 +45,7 @@ cp "/mnt/c/Users/Mudit/Desktop/MTECH assignments/GRS Assignment/"* .
 ### 2. Compilation
 Use the provided Makefile to clean and build both programs:
 
-```bash
+
 make clean && make
 ```bash
 
