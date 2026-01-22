@@ -47,37 +47,40 @@ Use the provided Makefile to clean and build both programs:
 
 
 make clean && make
-```bash
-
+```
 This generates two executables:
 
 - `MT25073_Part_A_Program_A`
 - `MT25073_Part_A_Program_B`
-
+```
 ### 3. Running Part C (Baseline)
 
 This script runs the programs with 2 workers and logs data to `MT25073_Part_C_CSV.csv`.
 
-```bash
+```
 chmod +x MT25073_Part_C_shell.sh
 ./MT25073_Part_C_shell.sh
+
+```
 
 
 ### 4. Running Part D (Scalability)
 
 This script iterates through multiple worker counts (Processes: 2–5, Threads: 2–8) and logs data to `MT25073_Part_D_CSV.csv`.
 
-```bash
+```
 chmod +x MT25073_Part_D_shell.sh
 ./MT25073_Part_D_shell.sh
 
+```
 ### 5. Export Results to Windows
 
 After running the tests, copy the CSVs, report, and source code back to Windows for submission:
 
-```bash
+```
 cp -r ~/PA01_Linux/* "/mnt/c/Users/Mudit/Desktop/MTECH assignments/GRS Assignment/"
 
+```
 
 ## AI Declaration
 
