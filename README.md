@@ -35,7 +35,7 @@ This assignment compares the performance overhead of **Processes (fork)** versus
 ### 1. Sync Windows Files to Linux
 If editing code in Windows (VS Code), copy the latest files to the Linux environment before compiling:
 
-```bash
+
 # Go to Linux directory
 cd ~/PA01_Linux
 
@@ -47,6 +47,7 @@ Use the provided Makefile to clean and build both programs:
 
 ```bash
 make clean && make
+```bash
 
 This generates two executables:
 
